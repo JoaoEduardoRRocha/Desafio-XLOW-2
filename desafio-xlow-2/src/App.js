@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
-import ArrowRight from './assets/arrow-right.png'
-import ArrowLeft from './assets/arrow-left.png'
+import ArrowRight from './assets/arrow-right.png';
+import ArrowLeft from './assets/arrow-left.png';
 
 const SliderImages = [
   {
@@ -40,6 +40,12 @@ const App = () => {
   const goToPrevSlide = () => {
     setCurrentIndex((prevIndex) => (prevIndex === 0 ? SliderImages.length - 1 : prevIndex - 1));
   };
+
+  useEffect(() => {
+    const intervalId = setInterval(goToNextSlide, 3000);
+
+    return () => clearInterval(intervalId);
+  }, [currentIndex]);
 
   return (
     <div className="slider-container">
