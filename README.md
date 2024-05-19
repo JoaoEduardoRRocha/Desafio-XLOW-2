@@ -36,7 +36,10 @@ Navegue até a pasta do Desafio-Xlow-2 utilizando
 ```bash
 cd Desafio-Xlow-2
 ```
-
+E novamente
+```bash
+cd Desafio-Xlow-2
+```
 Instale as dependências
 
 ```bash
