@@ -28,25 +28,25 @@ Desafio de uma vaga de Desenvolvedor Front-end Júnior dado pela XLOW.
 Abra um repositório local e copie esse comando:
 
 ```bash
-    git clone https://github.com/JoaoEduardoRRocha/Desafio-Xlow-2.git
+git clone https://github.com/JoaoEduardoRRocha/Desafio-Xlow-2.git
 ```
 
 Navegue até a pasta do Desafio-Xlow-2 utilizando
 
 ```bash
-    cd Desafio-Xlow-2
+cd Desafio-Xlow-2
 ```
 
 Instale as dependências
 
 ```bash
-  npm install
+npm install
 ```
 
 Inicie o servidor
 
 ```bash
-  npm start
+npm start
 ```
 
 
